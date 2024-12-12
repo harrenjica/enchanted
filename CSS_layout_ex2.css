@@ -1,0 +1,31 @@
+#container {
+	border: 4px green solid;
+	background-color: white;
+}
+
+.date{
+	border: 2px purple solid;
+}
+
+.entry {
+	border: 3px blue solid;
+	padding: 5px;
+	padding-top: 10px;
+	background-color: #E8FBFB;
+	text-align: justify;
+}
+
+body{
+margin-left: 10%;
+margin-right: 10%;
+background-image: url(journal_background.png);
+}
+
+#header {
+	border: 3px red solid;
+	text-align: right;
+}
+
+#header h2 {
+	border: 4px orange solid;
+}

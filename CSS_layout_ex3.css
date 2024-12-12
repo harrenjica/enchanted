@@ -1,0 +1,53 @@
+#container {
+	border: 2px rgb(213, 213, 213) solid;
+    border-radius: 10px;
+	background-color: white;
+    padding: 1%;
+}
+
+.date{
+	text-decoration: dotted underline;
+}
+
+.entry {
+	text-align: justify;
+    border: 3px #9ad2d2 solid;
+    border-radius: 10px;
+	padding: 5px;
+	padding-top: 10px;
+	background-color: #E8FBFB;
+}
+
+.clearfix {
+	text-align: justify;
+    border: 3px #9ad2d2 solid;
+    border-radius: 10px;
+	padding: 5px;
+	padding-top: 10px;
+	background-color: #E8FBFB;
+}
+
+body{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-image: url(journal_background.png);
+}
+
+#header {
+	text-align: right;
+    border: 3px #a3eaea solid;
+    border-radius: 10px;
+	padding: 5px;
+	background-color: #a3eaea;
+}
+
+.img1{
+	float: right;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
